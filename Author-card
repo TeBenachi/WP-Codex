@@ -1,0 +1,18 @@
+<div class="card">
+  <div class="card-header">
+    <strong>
+      <?php echo __('Posted by', 'benachi')?> 
+      <a href="<?php echo $author_URL; ?>"><?php echo get_the_author_meta('nickname'); ?>
+    </a>
+    </strong>
+  </div>
+
+  <div class="card-content">
+    <div class="author-image">
+      <?php echo get_avatar( $author_ID, 100, false, '',[ 'class' => 'is-rounded' ] ); ?>
+    </div>
+
+    <!-- Inserts HTML line breaks before all newlines in a string -->
+    <?php echo nl2br( get_the_author_meta( 'description' ) ); ?>
+  </div>
+</div>
