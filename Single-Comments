@@ -17,3 +17,14 @@ if( post_password_required($post) ) {
 }
 
 ?>
+
+//////////
+
+
+<?php 
+              
+  if( comments_open() || get_comments_numbers() ) {
+    comments_template();
+  }
+
+?>
