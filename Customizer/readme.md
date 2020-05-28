@@ -1,7 +1,7 @@
 
-1. Create theme-customizer.php in include folder
+1. Create **theme-customizer.php** in include folder
 
-2. In functions.php, add include and action...
+2. In **functions.php**, add include and action...
 
 ```
 
@@ -14,8 +14,8 @@ add_action( 'customize_register', 'ju_customize_register' );
 
 
 
-3. Create customizer folder within includes folder
+3. Create **customizer** folder within **includes** folder
 
-4. Create socia.php in customizer folder
+4. Create **socia.php** in customizer folder
 
 
