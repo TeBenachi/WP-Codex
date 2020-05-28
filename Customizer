@@ -1,9 +1,0 @@
-///////////
-1. Create theme-customizer.php in include folder
-
-2. In functions.php, add include and action...
-
-include( get_theme_file_path( '/includes/theme-customizer.php' ));
-
-add_action( 'customize_register', 'ju_customize_register' );
-
